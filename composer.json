@@ -1,0 +1,22 @@
+{
+    "name": "dcifuen/appengine-endpoints-helloendpoints-php",
+    "type": "library",
+    "description": "Hello World API client for PHP",
+    "keywords": ["endpoints"],
+    "homepage": "https://github.com/dcifuen/appengine-endpoints-helloendpoints-php",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "David Cifuentes",
+            "email": "dcifuen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "google/apiclient": "1.0.*@beta"
+    }
+}

@@ -18,3 +18,18 @@ temp/
 # Legacy ZF1
 demos/
 extras/documentation
+
+/cache/
+/nbproject/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+/tests/report/
+/tests/_output/*
+.idea/
+/logs/
+
+composer.lock
+
+# Google App Engine generated folder
+appengine-generated/
